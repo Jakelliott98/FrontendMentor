@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "prompt", sans-serif;
+}
+
+:root {
+
+    --fs-100: 12px;
+    --fs-200: 13.5px;
+    --fs-300: 15px;
+    --fs-400: 18.75px;
+    --fs-500: 37.5px;
+
+    --colour-primary: #1A2456;
+    --colour-linkText: #EFC2B3;
+
+}
+
+header {
+    background-color: var(--colour-primary);
+    margin: 0 auto;
+    width: 98%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 10px;
+}
+
+nav a, footer a, footer h3, footer p, .introSection h1, .introSection p {
+    color: var(--colour-linkText);
+}
+
+.navbarList {
+    display: flex;
+    gap: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-right: 5px;
+    align-items: center;
+}
+
+.navbarList a {
+    text-decoration: none;
+    font-size: var(--fs-100);
+}
+
+.shoppingBag i {
+    font-size: 20px;
+}
+
+.introSection {
+    background-image: url(Images/shop_cta_xl_896f6b8270.jpg);
+    background-position: center;
+    width: 100%;
+    min-height: 550px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.introSection h1 {
+    font-size: var(--fs-500);
+    width: 450px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.introSection p, .products h2 {
+    font-size: var(--fs-400);
+    line-height: 28px;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+.productDisplay {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 45px 250px;
+}
+
+.products {
+    position: relative;
+}
+
+.products img {
+    max-width: 100%;
+    height: auto;
+}
+
+.products h2 {
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.productInventory {
+    color: #6C757D;
+    font-size: 15px;
+}
+
+.products h2, .products p {
+    color: var(--colour-primary);
+}
+
+.products p {
+    font-size: var(--fs-200) ;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.productFlexbox {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 0;
+    gap: 10px;
+}
+
+.spanFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.preorders {
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    background-color: #FF8D6B;
+    padding: 3px 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: var(--fs-100);
+
+    
+}

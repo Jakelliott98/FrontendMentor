@@ -6,21 +6,25 @@
     <title>Monogram Website</title>
     <link rel="stylesheet" href="styling.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
  
 </head>
 <body>
     
     <header>
-        <img src="#" alt="Monogram logo">
+        <img src="Images/image-removebg-preview.png" height="50px" width="auto" alt="Monogram logo">
         <nav>
-            <ul>
+            <ul class="navbarList">
                 <a href="#">How it works</a>
                 <a href="#">Workflows<i class='bx bxs-down-arrow'></i></a>
                 <a href="#">Download</a>
                 <a href="#">Blog</a>
                 <a href="#">Support</a>
                 <a href="#">Shop</a>
-                <a href="#"><i class='bx bx-shopping-bag' ></i>USD<i class='bx bxs-down-arrow'></i></a>
+                <a class="shoppingBag" href="#"><i class='bx bx-shopping-bag' ></i></a>
+                <a class="currency" href="#">USD<i class='bx bxs-down-arrow'></i></a>
             </ul>
         </nav>
     </header>
@@ -36,43 +40,63 @@
         <section class="productDisplay">
 
             <div class="products">
-                <img src="#" alt="">
-                <span class="preorder">Pre-order</span>
-                <h2 class="productHeader">Mini Console</h2>
-                <p class="productDescription">Ideal for everyday shortcuts. Adaptable to any workflow.</p>
-                <span class="productInventory">Sold out</span>
+                <img src="Images/Everyday-Bundle-Mocks-final_1920x1281_crop_center.jpg.webp.jpeg" alt="">
+                <div class="productFlexbox">
+                    <div class="spanFlex">
+                        <h2 class="productHeader">Mini Console</h2>
+                        <span class="productInventory">Sold out</span>
+                    </div>
+                    <p class="productDescription">Ideal for everyday shortcuts. Adaptable to any workflow.</p>
+                </div>
+                <span class="preorders">Pre-order</span>
             </div>
 
             <div class="products">
-                <img src="#" alt="">
-                <span class="preorder">Pre-order</span>
-                <h2 class="productHeader">Audio Console</h2>
+                <img src="Images/Packaging_TravelerClosedBracket1_Monogram_May20204517_d3899632-1a43-425f-a16a-1d5b968810c7_1920x1280_crop_center.jpg.webp.jpeg" alt="">
+                <div class="productFlexbox">
+                    <div class="spanFlex">
+                        <h2 class="productHeader">Audio Console</h2>
+                        <span class="productInventory">Sold out</span>
+                    </div>
                 <p class="productDescription">Ideal for music & audio. Adaptable to any workflow.</p>
-                <span class="productInventory">Sold out</span>
+                </div>
+                <span class="preorders">Pre-order</span>
             </div>            
 
             <div class="products">
-                <img src="#" alt="">
-                <span class="preorder">Pre-order</span>
-                <h2 class="productHeader">Photo Console</h2>
+                <img src="Images/Packaging_StudioClosedBracket1_Monogram_May20204507_548446cb-17c9-4fc2-8b12-ae1b1a308a7e_1920x1280_crop_center.jpg.webp.jpeg" alt="">
+                <div class="productFlexbox">
+                    <div class="spanFlex">
+                        <h2 class="productHeader">Photo Console</h2>
+                        <span class="productInventory">Sold out</span>
+                    </div>
                 <p class="productDescription">Ideal for photo & video. Adaptable to any workflow.</p>
-                <span class="productInventory">Sold out</span>
+                </div>
+                <span class="preorders">Pre-order</span>
             </div>          
 
             <div class="products">
-                <img src="#" alt="">
-                <span class="preorder">Pre-order</span>
-                <h2 class="productHeader">Video Console</h2>
+                <img src="Images/Packaging_MasterClosedBracket1_Monogram_May20204494_1920x1280_crop_center.jpg.webp.jpeg" alt="">
+                <div class="productFlexbox">
+                    <div class="spanFlex">
+                        <h2 class="productHeader">Video Console</h2>
+                        <span class="productInventory">Sold out</span>
+                    </div>
                 <p class="productDescription">Ideal for Video & Film. Adaptable to any workflow.</p>
-                <span class="productInventory">Sold out</span>
+                </div>
+                <span class="preorders">Pre-order</span>
             </div>
 
-            <div class="products">
-                <img src="#" alt="">
-                <span class="preorder">Pre-order</span>
-                <h2 class="productHeader">Monogram keyboard + multipad</h2>
+            <div class="products specialProduct">
+                <img src="Images/Monogram_Keyboard_Multipad-v2_1920x1300_crop_center.png.webp.png" alt="">
+                <div class="productFlexbox">
+                    <div class="spanFlex">
+                        <h2 class="productHeader">Monogram keyboard + multipad</h2>
+                        <span class="productInventory">Sold out</span>
+                    </div>
                 <p class="productDescription">Adaptable to any workflow.</p>
-                <span class="productInventory">Sold out</span>
+                </div>
+                <span class="preorders">Pre-order</span>
             </div>   
 
         </section>
